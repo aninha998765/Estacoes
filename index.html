@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estação do Ano</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@1,100&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,100&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h1>Descubra a Estação do Ano</h1>
+    <label for="dateInput">Digite uma data:</label>
+    <input type="date" id="dateInput">
+    <button id="checkButton">Verificar Estação</button>
+    <p id="result"></p>
+  </div>
+  <script src="main.js"></script>
+
+  <style>
+    body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+  .container {
+    max-width: 600px;
+    margin: 100px auto;
+    background-color: #c18be2;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+  }
+  
+  h1 {
+    text-align: center;
+    color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+
+
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 10px;
+    color: #f4f4f4;
+    font-family: 'Raleway', sans-serif;
+
+
+  }
+  
+  input {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+
+  }
+  
+  button {
+    background-color: #692394;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+    border-radius: 10px;
+    font-family: Arial, sans-serif;
+
+
+
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+    font-family: Arial, sans-serif;
+
+  }
+  
+  #result {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+
+  }
+  </style>
+</body>
+</html>
